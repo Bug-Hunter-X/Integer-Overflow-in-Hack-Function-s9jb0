@@ -1,0 +1,3 @@
+# Integer Overflow Bug in Hack
+
+This repository demonstrates a subtle integer overflow bug in a simple Hack program. The `bar` function, which uses `foo` to calculate a value and then doubles it, can produce incorrect results if the input value is sufficiently large and leads to an integer overflow. The solution demonstrates how to handle potential overflow using checks and appropriate data types to avoid this issue.
